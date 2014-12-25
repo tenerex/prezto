@@ -13,6 +13,9 @@ if (( ! $+commands[tmux] )); then
   return 1
 fi
 
+# Enable 256 color in tmux
+export TERM=xterm-256color
+
 #
 # Auto Start
 #
